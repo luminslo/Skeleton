@@ -1,0 +1,5 @@
+dist
+tsconfig.json
+.eslintrc
+.prettierrc
+package.json
