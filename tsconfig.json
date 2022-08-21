@@ -4,7 +4,7 @@
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "build",
     "esModuleInterop": true,
     "removeComments": true,
     "forceConsistentCasingInFileNames": true,
