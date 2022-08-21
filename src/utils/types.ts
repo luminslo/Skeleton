@@ -36,6 +36,10 @@ export interface DirectCommandData extends GenericCommandData {
   canIgnorePermissions?: string;
   exec: DirectCommandRunData;
 }
+export interface SkullboardData {
+  channelID: string;
+  starCount: number | string | boolean;
+}
 
 /** Methods used by each command type */
 

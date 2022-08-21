@@ -2,7 +2,8 @@ import { Client, Collection } from "discord.js";
 import {
   ApplicationCommandData,
   ClientData,
-  DirectCommandData
+  DirectCommandData,
+  SkullboardData
 } from "../utils/types.js";
 
 import { Util } from "../utils/util.js";
@@ -13,6 +14,7 @@ export class Cassia extends Client {
   commands: Collection<string, DirectCommandData> = new Collection();
   interactions: Collection<string, ApplicationCommandData> = new Collection();
   triggers: Collection<string, any> = new Collection();
+  skullboards: Collection<any, SkullboardData> = new Collection();
   /** Preferences / Options to be passed to the client before initialization
    */
   constructor(data: ClientData) {
